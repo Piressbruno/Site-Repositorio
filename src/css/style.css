@@ -1,0 +1,84 @@
+.header {
+    padding: 20px 30px 5px 30px;
+}
+
+.logo {
+    width: 100%;
+    color: #007cad;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.menu {
+    display: flex;
+    background-color: #202D73;
+    color: white; 
+}
+.menu li {
+    display: flex;
+    
+    color: white;
+    align-items: center;
+}
+.menu li a {
+    font-size: 20px; 
+    padding: 5px 20px;
+}
+.menu li a:hover {
+    background: #007cad;
+}
+.pag-atual {
+    background: #007cad;
+}
+
+
+/*Main*/
+
+.banner {
+    height: 300px;
+    margin: 5px 30px;
+    display: flex;
+    flex: 1;
+    
+}
+.text-banner {
+    background: radial-gradient(circle at 110%, #D505E1, #B600C5, #9901AC, #7B0194, #620280, #320055);
+    color: white;
+    padding: 15px;
+}
+
+/*Conteudo Principal*/
+
+.conteudo {
+    border: 1px solid red;
+    margin: 30px 30px;
+    display: flex;
+
+}
+.info-1 {
+    margin-right: 30px;
+}
+.info-1 h2 {
+    background: #007cad;
+    color: white;
+    padding: 5px;
+}
+.info-1 p {
+    padding: 5px;
+}
+
+.info-2 {
+    border: 1px solid black;
+
+}
+
+.projetos {
+    border: 1px solid red;
+    height: 300px;
+    margin: 5px 30px;
+}
+
+.projetos h2 {
+    background: #007cad;
+    color: white;
+    padding: 5px;
+}
